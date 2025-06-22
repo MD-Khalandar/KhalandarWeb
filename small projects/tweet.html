@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>tweet</title>
+    <style>
+      p {
+        font-family: Roboto, Arial;
+        margin:0px;
+      }
+      .project{
+        display:flex;
+        align-items: start;
+        
+      }
+      .pro-pic{
+        height:50px;
+        margin-right: 15px;
+      }
+      .thumbnail{
+        width: 100px;
+    height: 100px;
+    background-color: rgb(220, 220, 220);
+      }
+      
+      
+      .below-text{
+        display:flex;
+        margin-top:10px;
+        align-items: center;
+        column-gap: 10px;
+        border-style: solid;
+        border-radius: 13px;
+        border-width: 1px;
+        border-color:rgb(219, 219, 219);
+        overflow: hidden;
+        
+      }
+      .yt-link{
+        font-family: Roboto;
+        color:gray;
+        margin-bottom:5px;
+        
+
+      }
+      .mention{
+        font-size: 17px;
+        color:grey;
+        
+      }
+      .creator-info{
+        margin-bottom: 4px;
+      }
+      .beside-grey{
+        flex:1;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="project">
+      <img src="my-channel.jpeg" class="pro-pic">
+      <div class="beside-pic">
+        <p class="creator-info"><b>supersimple.dev</b> <span class="mention">@SuperSimpleDev</span></p>
+        <p style="width: 280px;">What is backend web dev? A complete overview. New video is up!</p>
+       <div class="below-text">
+       <div class="thumbnail"> </div>
+        <div class="beside-grey">
+        <p href="https://youtube.com" class="yt-link">youtube.com</p>
+        <p style=" line-height: 20px;">Backend web development- a complete overview(2025) </p>
+        </div>
+       </div>
+      </div>
+    </div>
+  </body>
+</html>
